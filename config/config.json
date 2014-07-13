@@ -1,0 +1,11 @@
+{
+	"env":"devel",
+	"database" :{
+		"driver":"mysql",
+		"host":"localhost",
+		"user":"bender",
+		"passwd":"2deawhpCJPmKpeNM",
+		"name":"site_caro"
+
+	}
+}
