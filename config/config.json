@@ -6,5 +6,9 @@
 		"user":"bender",
 		"passwd":"2deawhpCJPmKpeNM",
 		"name":"site_latin"
-	}
+	},
+	"theme":{
+		"base_dir":"template"
+	},
+	"SiteName":"Loren Tutu"
 }
