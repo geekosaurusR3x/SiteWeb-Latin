@@ -8,7 +8,8 @@
 		"name":"site_latin"
 	},
 	"theme":{
-		"base_dir":"template"
+		"base_dir":"template",
+		"name":"default"
 	},
 	"SiteName":"Loren Tutu"
 }

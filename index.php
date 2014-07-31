@@ -10,8 +10,7 @@ include("config.php");
 /* Render template */
 $template = $twig->loadTemplate('index.twig');
 echo $template->render(array(
-	'site_title' => $config->SiteName,
-	'moteur_name' => 'Twig'
+	'site_title' => $config->SiteName
 ));
 
 ?>
