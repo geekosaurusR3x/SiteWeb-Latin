@@ -1,18 +1,28 @@
-<form class="navbar-form navbar-right" role="form">
+<form id="loginform" class="form-horizontal" role="form">
 	<div class="form-group">
-		<div class="input-group">
-			<div class="input-group-addon">@</div>
-			<input class="form-control" type="email" placeholder="Enter email">
+		<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="inputEmail" placeholder="Email">
 		</div>
 	</div>
 	<div class="form-group">
-		<label class="sr-only" for="passwordfield">Password</label>
-		<input type="password" class="form-control" id="passwordfield" placeholder="Password">
+		<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+		<div class="col-sm-10">
+			<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+		</div>
 	</div>
-	<div class="checkbox">
-		<label>
-			<input type="checkbox">Remember me
-		</label>
+	<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+			<div class="checkbox">
+				<label>
+					<input type="checkbox"> Remember me
+				</label>
+			</div>
+		</div>
 	</div>
-	<button type="submit" class="btn btn-success">Sign in</button>
+	<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-success pull-right">S'identifier</button>
+		</div>
+	</div>
 </form>
