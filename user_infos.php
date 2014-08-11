@@ -34,6 +34,8 @@ if($user != null){
 		"last_name" => $user->last_name,
 		"lvl" => $user->lvl,
 		"actual_xp" => $user->actual_xp,
+		"total_xp" => 100,
+		"percent_xp" => 45,
 	]);
 }
 else

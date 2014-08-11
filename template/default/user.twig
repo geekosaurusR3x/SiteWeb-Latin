@@ -1,6 +1,15 @@
-{{ pseudo }}<br />
-{{ first_name }} {{last_name}}<br />
-<br />
-Niveau {{ lvl }}<br />
-{{ actual_xp }}/{{ total_xp }} px<br />
+<div class="col-sm-6">
+	{{ pseudo }}<br />
+	{{ first_name }} {{last_name}}<br />
+	<br />
+	Niveau {{ lvl }}: {{ actual_xp }}/{{ total_xp }} px<br />
+	<div class="progress">
+		<div class="progress-bar progress-bar-info progress-bar-striped active"  role="progressbar" aria-valuenow="{{ percent_xp }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percent_xp }}%">
+			{{ percent_xp }}% Complete
+		</div>
+	</div>
+</div>
+<div class="col-sm-6">
+
+</div>
 <button id="logoutbtn" class="btn btn-info pull-right"><i class="glyphicon glyphicon-log-out"></i> D&eacute;connexion</button>
